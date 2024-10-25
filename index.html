@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FAF7F0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #D8D2C2;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+        
+        h1, h2, h3 {
+            color: #333;
+        }
+        
+        .group-info ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .group-info li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            flex: 1;
+            max-width: 200px;
+        }
+        
+        .group-info img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .member-info {
+            text-align: center;
+        }
+        
+        .member-info p {
+            margin: 5px 0;
+        }
+        
+        .member-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        
+        .member-info a:hover {
+            text-decoration: underline;
+        }        
+    </style>
+    <title>Nhóm 11 - Layout</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Thông tin nhóm</h1>
+        <div class="group-info">
+            <h2>Mã Nhóm: 11</h2>
+            <h3>Danh sách thành viên:</h3>
+            <ul>
+                <li>
+                    <img src="./image/Layout3.png" alt="Layout 1">
+                    <div class="member-info">
+                        <p><strong>MSSV:</strong> 22127034</p>
+                        <p><strong>Họ tên:</strong> Trần Gia Bảo</p>
+                        <a href="./22127034/index.html">About</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="./image/Layout1.png" alt="Layout 2">
+                    <div class="member-info">
+                        <p><strong>MSSV:</strong> 22127372</p>
+                        <p><strong>Họ tên:</strong> Phan Văn Tài</p>
+                        <a href="#about2">About</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="./image/Layout2.png" alt="Layout 3">
+                    <div class="member-info">
+                        <p><strong>MSSV:</strong> 22127388</p>
+                        <p><strong>Họ tên:</strong> Tô Quốc Thanh</p>
+                        <a href="#about3">About</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
