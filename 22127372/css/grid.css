@@ -1,0 +1,63 @@
+main {
+    background-color: lightgray;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 80%; /* Add this to limit the width of the <main> */
+    margin: 0 auto;
+    justify-items: center; /* Centers all child elements horizontally */
+}
+
+.logo, header, .text_area, footer, .box{
+    box-sizing: border-box;
+    background-color: gray;
+    opacity: 0.7;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    font-size: 200%;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 70px;
+}
+header {
+    height: 150px;
+}
+
+.text_area {
+    height: 100px;
+}
+
+footer {
+    height: 70px;
+}
+.logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns for the boxes */
+    gap: 1rem; /* Adds space between the boxes */
+    width: 80%; /* Full width for the container */
+    min-height: 300px;
+    column-gap: 3rem;
+}
+
+.box {
+    background-color: gray;
+    padding: 1rem;
+    text-align: center;
+    font-size: 150%; /* Adjusts the font size for the box content */
+    overflow: auto;
+    width: auto;
+}

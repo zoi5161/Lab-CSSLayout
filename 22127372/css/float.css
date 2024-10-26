@@ -1,0 +1,68 @@
+main {
+    background-color: lightgray;
+    padding: 1rem;
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo, header, .text_area, footer {
+    box-sizing: border-box;
+    background-color: gray;
+    opacity: 0.7;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.container {
+    box-sizing: border-box;
+    opacity: 0.7;
+    text-align: center;
+    font-weight: bold;
+    padding: 0rem;
+    margin: 10px auto;
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.box{
+    box-sizing: border-box;
+    background-color: gray;
+    height: 18rem;
+    line-height: 18rem;
+    float: left;
+    width: calc(100% /3 - 2rem);
+    font-size: 200%;
+    text-align: center;
+}
+
+
+
+
+.box:not(:last-child) {
+    margin-right: 3rem;
+}
+
+
+.logo {
+    height: 100px;
+}
+logo {
+    float: left;
+    font-size: 200%;
+    margin: auto auto auto 10px;
+}
+nav {
+    float: right;
+    font-size: 200%;
+}
+
+header, .text_area, footer {
+    font-size: 200%;
+}

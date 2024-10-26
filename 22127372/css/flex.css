@@ -1,0 +1,64 @@
+main {
+    background-color: lightgray;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center; /* This centers the children horizontally */
+    margin: 0 auto; /* This centers the <main> itself horizontally */
+    width: 80%; /* Add this to limit the width of the <main> */
+}
+
+.logo, header, .text_area, footer, .box{
+    box-sizing: border-box;
+    background-color: gray;
+    opacity: 0.7;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+}
+
+header {
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_area {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+logo, nav, header, .text_area, footer, .box {
+    font-size: 200%;
+    padding: 1rem;
+}
+
+.container {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 80%;
+}
+
+.box {
+    overflow: auto;
+    background-color: gray;
+    width: calc(100% / 3 - 2rem);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
