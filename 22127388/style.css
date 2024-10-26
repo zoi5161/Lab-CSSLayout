@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: lightgray;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding: 1rem 0;
+}
+
+li {
+    margin: 1rem;
+    background-color: rgb(31, 31, 64);
+    list-style-type: none;
+    height: 5rem;
+    border-radius: 0.5rem;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(241, 234, 234);
+    display: block;
+    padding: 2rem;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 1rem;
+}
